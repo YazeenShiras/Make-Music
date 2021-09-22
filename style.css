@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  background: url(./assets/Untitled\ design-01.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin: 0%;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading > h2 {
+  font-family: "Poppins", sans-serif;
+  margin-top: -50px;
+  color: #333;
+}
+
+.beatbox {
+  width: 500px;
+  height: 500px;
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.beat {
+  width: 100px;
+  height: 100px;
+  flex-basis: 29%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 5px solid #19ffff;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  transition: all 0.2s;
+}
+
+#a:hover {
+  background-color: #19ffff;
+  box-shadow: 0px 0px 17px 0px #19ffff;
+}
+
+#s:hover {
+  background-color: #19ffff;
+  box-shadow: 0px 0px 17px 0px #19ffff;
+}
+
+#d:hover {
+  background-color: #19ffff;
+  box-shadow: 0px 0px 17px 0px #19ffff;
+}
+
+#f,
+#g,
+#h {
+  border-color: #ff00ff;
+}
+
+#f:hover {
+  background-color: #ff00ff;
+  box-shadow: 0px 0px 17px 0px #ff00ff;
+}
+
+#g:hover {
+  background-color: #ff00ff;
+  box-shadow: 0px 0px 17px 0px #ff00ff;
+}
+
+#h:hover {
+  background-color: #ff00ff;
+  box-shadow: 0px 0px 17px 0px #ff00ff;
+}
+
+#j,
+#k,
+#l {
+  border-color: #9e36ff;
+}
+
+#j:hover {
+  background-color: #9e36ff;
+  box-shadow: 0px 0px 17px 0px #9e36ff;
+}
+
+#k:hover {
+  background-color: #9e36ff;
+  box-shadow: 0px 0px 17px 0px #9e36ff;
+}
+
+#l:hover {
+  background-color: #9e36ff;
+  box-shadow: 0px 0px 17px 0px #9e36ff;
+}
+
+.loading > h3 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  display: block;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .beatbox {
+    width: 300px;
+    height: 300px;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+  .beat {
+    width: 70px;
+    height: 70px;
+    flex-basis: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    width: 70px;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid #19ffff;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    transition: all 0.2s;
+  }
+}
